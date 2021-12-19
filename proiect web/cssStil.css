@@ -1,0 +1,206 @@
+* {
+    box-sizing: border-box;
+}
+
+.header-principal {
+    background-color: rgb(73, 154, 156);
+    background-size: cover;
+}
+
+.sectiune-principala {
+    background-image: url("Imagini/Animalele padurii.jpg");
+    background-size: cover;
+    padding-bottom: 1000px;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+    padding: 0 3%;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.nav-principal {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-pe-stanga {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, .3);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .nav-pe-stanga a {
+    top: 50%;
+    padding: 50px 8px 10px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .nav-pe-stanga a:hover {
+    color: #f1f1f1;
+  }
+  
+  .nav-pe-stanga .inchideButon {
+    position: absolute;
+    color: black;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  #deschide-navigatia {
+    font-size: 50px;
+    cursor: pointer;
+    color: black;
+  }
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.footer-principal {
+    background-color: rgb(73, 154, 156);
+    background-size: cover;
+    height: 100%;
+    padding-bottom: 1px;
+}
+
+.linkuri-social-media li{
+    padding: 0 .5em;
+}
+
+.footer-principal-container {
+    display: flex;
+    align-items: center;
+}
+
+.linkuri-social-media {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.linkuri-social-media img {
+    width: 30px;
+    height: 30px;
+}
+
+.titlu {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: white;
+}
+
+.titlu-mare {
+    font-size: 7em;
+}
+
+.sectiune-continut {
+    margin: 1em;
+}
+
+.animale-fundal {
+    background-image: url("Imagini/Forest background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.sectiune-header {
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2.5em;
+}
+
+.imagine-animal {
+    float: left;
+    height: 500px;
+    width: 800px;
+    margin: 15px;
+}
+
+.despre-animal {
+    text-indent: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+    color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#link-youtube {
+    width : 560px;
+    height : 315px;
+    margin: 0 auto;
+    display: block;
+    padding-bottom: 20px;
+}
+
+.text-footer {
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.fundal-joc {
+    background-image: url("Imagini/Forest background for Game.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-bottom: 679px;
+}
+
+
+#butonulFugar {
+    position: fixed;
+    z-index: 2;
+    font-size: 50px;
+    background: transparent;
+}
